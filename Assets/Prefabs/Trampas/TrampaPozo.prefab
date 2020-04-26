@@ -88,7 +88,7 @@ Transform:
   m_GameObject: {fileID: 1985175191327344402}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 15}
+  m_LocalScale: {x: 15, y: 10, z: 15}
   m_Children: []
   m_Father: {fileID: 8230658870272452311}
   m_RootOrder: 0
@@ -212,7 +212,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5598055563957415095}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -264,9 +264,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"objetoActivadorTrampa","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tagCharacter","value":{"$content":"Player","$type":"System.String"},"$version":"A"},{"name":"isTrampaActivada","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoSueloEscena","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"objetoActivadorTrampa","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tagCharacter","value":{"$content":"Player","$type":"System.String"},"$version":"A"},{"name":"isTrampaActivada","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoDisparadorMuerte","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSueloEscena","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1985175191327344402}
+    - {fileID: 5598055563957415095}
 --- !u!114 &964157389186289624
 MonoBehaviour:
   m_ObjectHideFlags: 0
