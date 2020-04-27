@@ -83,6 +83,51 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310897490}
   m_Enabled: 1
+--- !u!1 &1171430728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171430729}
+  - component: {fileID: 1171430730}
+  m_Layer: 0
+  m_Name: AttackArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1171430729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171430728}
+  m_LocalRotation: {x: 0.04573316, y: 0.0000000037252885, z: -0.0000000037252885,
+    w: 0.9989537}
+  m_LocalPosition: {x: -0.193, y: -0.127, z: 1.266}
+  m_LocalScale: {x: 0.5, y: 0.25, z: 2}
+  m_Children: []
+  m_Father: {fileID: 545281396517480276}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 5.242, y: 0, z: 0}
+--- !u!65 &1171430730
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171430728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &256697954365709400
 GameObject:
   m_ObjectHideFlags: 0
@@ -4917,11 +4962,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveVelocity","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"runVelocity","value":{"$content":14.0,"$type":"System.Single"},"$version":"A"},{"name":"isMovingF","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRotate","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotateVelocity","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"isRotatingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isRotatingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":7500.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"particlesStepR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesStepL","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesLand","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveVelocity","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"runVelocity","value":{"$content":14.0,"$type":"System.Single"},"$version":"A"},{"name":"isMovingF","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRotate","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotateVelocity","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"isRotatingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isRotatingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":7500.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"particlesStepR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesStepL","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesLand","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8511169102473474778}
     - {fileID: 1406801648749811027}
     - {fileID: 2881645167392754424}
+    - {fileID: 1171430728}
 --- !u!114 &-208189744464742351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14568,9 +14614,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46aa706c102dc845a55fa5d602da98a, type: 3}
---- !u!4 &545281396517478934 stripped
+--- !u!4 &545281396517480276 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 9131569004338824268, guid: e46aa706c102dc845a55fa5d602da98a,
+  m_CorrespondingSourceObject: {fileID: 9131569004338823438, guid: e46aa706c102dc845a55fa5d602da98a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8730477648789694042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &545281396517500800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9131569004338811354, guid: e46aa706c102dc845a55fa5d602da98a,
     type: 3}
   m_PrefabInstance: {fileID: 8730477648789694042}
   m_PrefabAsset: {fileID: 0}
@@ -14580,9 +14632,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8730477648789694042}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &545281396517500800 stripped
+--- !u!4 &545281396517478934 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 9131569004338811354, guid: e46aa706c102dc845a55fa5d602da98a,
+  m_CorrespondingSourceObject: {fileID: 9131569004338824268, guid: e46aa706c102dc845a55fa5d602da98a,
     type: 3}
   m_PrefabInstance: {fileID: 8730477648789694042}
   m_PrefabAsset: {fileID: 0}
