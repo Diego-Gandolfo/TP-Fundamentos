@@ -22,7 +22,7 @@ public class WarriorAnimationDemoFREE : MonoBehaviour
 		//Apply inputs to animator
 		animator.SetFloat("Input X", z);
 		animator.SetFloat("Input Z", -(x));
-
+		/*
 		if (x != 0 || z != 0 )  //if there is some input
 		{
 			//set that character is moving
@@ -33,7 +33,7 @@ public class WarriorAnimationDemoFREE : MonoBehaviour
 			//character is not moving
 			animator.SetBool("Moving", false);
 		}
-
+		*/
 		if (Input.GetButtonDown("Fire1"))
 		{
 			animator.SetTrigger("Attack1Trigger");
