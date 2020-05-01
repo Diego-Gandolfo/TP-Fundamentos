@@ -1918,16 +1918,6 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
       objectReference: {fileID: 1682394427}
-    - target: {fileID: 2079329484203179670, guid: 0f1de007356dc0b4fa7fad983bfc96f9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5478999372581795044, guid: 0f1de007356dc0b4fa7fad983bfc96f9,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f1de007356dc0b4fa7fad983bfc96f9, type: 3}
 --- !u!1 &1484573279
