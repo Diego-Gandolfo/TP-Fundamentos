@@ -60,7 +60,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4841896457301237074
 Transform:
   m_ObjectHideFlags: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"objectPlayerDetector","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAttackReachArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAreaAttack","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isPlayerNear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objectPlayer","value":null,"$version":"A"},{"name":"lifePonits","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"objectPlayerDetector","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAttackReachArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAreaAttack","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isPlayerNear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objectPlayer","value":null,"$version":"A"},{"name":"lifePonits","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"speedVelocity","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 354733394239496659}
     - {fileID: 2079329484203179670}
@@ -249,11 +249,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9525858720ba8304db1453bdfd346a52, type: 3}
       propertyPath: m_Name
       value: 2Handed Warrior
-      objectReference: {fileID: 0}
-    - target: {fileID: 7030769395581048458, guid: 9525858720ba8304db1453bdfd346a52,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9525858720ba8304db1453bdfd346a52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -297,6 +292,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9525858720ba8304db1453bdfd346a52, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030769395581048458, guid: 9525858720ba8304db1453bdfd346a52,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 459818, guid: 9525858720ba8304db1453bdfd346a52, type: 3}
