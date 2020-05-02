@@ -166,7 +166,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveVelocity","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"runVelocity","value":{"$content":14.0,"$type":"System.Single"},"$version":"A"},{"name":"isMovingF","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRotate","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotateVelocity","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"isRotatingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isRotatingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":7500.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"particlesStepR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesStepL","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesLand","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 0}
+    - {fileID: 2566183605158749403}
     - {fileID: 4800500177368592397}
     - {fileID: 2881645167392754424}
     - {fileID: 8730477647626926866}
@@ -267,6 +267,37 @@ Transform:
   m_Father: {fileID: 6139044390113398373}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
+--- !u!114 &1289509456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8730477647626926866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: aea784496c2ab9f44ba6b00c5b2cb355, type: 2}
+--- !u!114 &1289509457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8730477647626926866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &632875856278061935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -359,6 +390,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RPG-Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171430728, guid: e46aa706c102dc845a55fa5d602da98a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9131569004338824268, guid: e46aa706c102dc845a55fa5d602da98a,
         type: 3}
@@ -456,6 +491,12 @@ Transform:
 --- !u!198 &4800500177368592397 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 4302677417142113879, guid: e46aa706c102dc845a55fa5d602da98a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8730477648789694042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2566183605158749403 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6535859193498550913, guid: e46aa706c102dc845a55fa5d602da98a,
     type: 3}
   m_PrefabInstance: {fileID: 8730477648789694042}
   m_PrefabAsset: {fileID: 0}
