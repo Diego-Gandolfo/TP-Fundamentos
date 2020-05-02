@@ -23,13 +23,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3794062072130970309}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.65, z: 1.45}
+  m_LocalRotation: {x: 0, y: -0.026176924, z: 0, w: 0.99965733}
+  m_LocalPosition: {x: 0.25, y: 2, z: 0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 814813729179193064}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -3, z: 0}
 --- !u!1 &5457556976536672535
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,8 +121,8 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7720471846540312241}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: 8745dcecb0eafec409964dd1f0b7bb67, type: 3}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 6113d0ea44252774db53fa756483807d, type: 3}
   m_Controller: {fileID: 9100000, guid: 47c1d5fcfcc94094080fb7a56825c006, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -145,11 +145,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"objectPlayerDetector","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAttackReachArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAreaAttack","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectPlayer","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"speedVelocity","value":{"$content":6.5,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoSpawnFlechas","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"objectPlayerDetector","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAttackReachArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectPlayer","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoSpawnFlechas","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 8464507592396332726}
+    - {fileID: 8888518221343130355}
     - {fileID: 0}
     - {fileID: 3794062072130970309}
 --- !u!114 &6896113762029387373
@@ -311,17 +310,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 459818, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 459818, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 459818, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 459818, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 459818, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0017328262
+      objectReference: {fileID: 0}
     - target: {fileID: 9590292, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 14473718, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.15630613
+      value: -0.15630606
       objectReference: {fileID: 0}
     - target: {fileID: 14473718, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.00000047406672
+      value: -0.00000047406633
       objectReference: {fileID: 0}
     - target: {fileID: 14473716, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.x
