@@ -288,6 +288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5918838439165728423}
+  - component: {fileID: 299250275}
   m_Layer: 0
   m_Name: PinchosSuelo
   m_TagString: Untagged
@@ -381,6 +382,19 @@ Transform:
   m_Father: {fileID: 8230658870272452311}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &299250275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562000464706078414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8, z: 8}
+  m_Center: {x: -0.5, y: 2, z: 0}
 --- !u!1 &611667064006542219
 GameObject:
   m_ObjectHideFlags: 0
@@ -4863,9 +4877,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"objetoActivadorTrampa","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tagCharacter","value":{"$content":"Player","$type":"System.String"},"$version":"A"},{"name":"isTrampaActivada","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"objetoActivadorTrampa","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tagCharacter","value":{"$content":"Player","$type":"System.String"},"$version":"A"},{"name":"isTrampaActivada","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoPinchosSuelo","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damage","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1985175191327344402}
+    - {fileID: 562000464706078414}
 --- !u!114 &964157389186289624
 MonoBehaviour:
   m_ObjectHideFlags: 0

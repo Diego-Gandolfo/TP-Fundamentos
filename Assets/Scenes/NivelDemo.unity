@@ -368,21 +368,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2244881358354458959, guid: 52cc00a5e75f83044b4ad013583bfb2c,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2244881358354458959, guid: 52cc00a5e75f83044b4ad013583bfb2c,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"objetoActivadorTrampa","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tagCharacter","value":{"$content":"Player","$type":"System.String"},"$version":"A"},{"name":"isTrampaActivada","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoPinchosSuelo","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damage","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2244881358354458959, guid: 52cc00a5e75f83044b4ad013583bfb2c,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[1]
-      value: 
-      objectReference: {fileID: 299250273}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52cc00a5e75f83044b4ad013583bfb2c, type: 3}
 --- !u!1001 &258588864
@@ -492,25 +477,6 @@ Transform:
   m_Father: {fileID: 1317173481}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!1 &299250273 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 562000464706078414, guid: 52cc00a5e75f83044b4ad013583bfb2c,
-    type: 3}
-  m_PrefabInstance: {fileID: 180111429}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &299250275
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299250273}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 7, y: 8, z: 8}
-  m_Center: {x: -0.5, y: 2, z: 0}
 --- !u!1 &351051964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,7 +1169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937955716}
   m_Layer: 0
-  m_Name: ' >> Inicio <<'
+  m_Name: '>>>>> Inicio <<<<<'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1937,7 +1903,7 @@ PrefabInstance:
     - target: {fileID: 6139044390113398373, guid: efde8af004a6f2f44920f5a74901ea73,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.77
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139044390113398373, guid: efde8af004a6f2f44920f5a74901ea73,
         type: 3}
@@ -2187,7 +2153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1435957254}
   m_Layer: 0
-  m_Name: '>> Final <<'
+  m_Name: '>>>>> Final <<<<<'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
