@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6961298218201565091}
   - component: {fileID: 8116805592193487883}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Palo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,8 +159,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Sierra2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 5387994413088939387}
+    - {fileID: 4806297267210975922}
 --- !u!114 &1226023786203440600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,7 +192,7 @@ GameObject:
   - component: {fileID: 4806297266499298608}
   - component: {fileID: 4806297266499298623}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Palo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -314,7 +316,7 @@ GameObject:
   - component: {fileID: 4806297267210975925}
   - component: {fileID: 4806297267210975924}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Sierra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -407,7 +409,7 @@ GameObject:
   - component: {fileID: 2229533758166854916}
   - component: {fileID: 1581199159873107154}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Sierra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
