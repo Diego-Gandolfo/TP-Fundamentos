@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 6896113762029387373}
   m_Layer: 0
   m_Name: EnemyCrossbow
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -399,35 +399,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 14473718, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.15630606
+      value: -0.15630607
       objectReference: {fileID: 0}
     - target: {fileID: 14473718, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.00000047406633
+      value: -0.00000047406644
       objectReference: {fileID: 0}
     - target: {fileID: 14473716, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.27091473
+      value: 0.27091688
       objectReference: {fileID: 0}
     - target: {fileID: 14473716, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.00000032897117
+      value: -0.000000028656578
       objectReference: {fileID: 0}
     - target: {fileID: 14473716, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.00000020489097
+      value: -0.0000017397106
       objectReference: {fileID: 0}
     - target: {fileID: 14473714, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.27179098
+      value: 0.27179027
       objectReference: {fileID: 0}
     - target: {fileID: 14473714, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.00000037414148
+      value: -0.00000040071896
       objectReference: {fileID: 0}
     - target: {fileID: 14473714, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.00000024586916
+      value: 0.0000003501773
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f02a055bd6b8c1343ab2310b439da7d0, type: 3}
