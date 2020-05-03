@@ -368,6 +368,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2244881358354458959, guid: 52cc00a5e75f83044b4ad013583bfb2c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244881358354458959, guid: 52cc00a5e75f83044b4ad013583bfb2c,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"objetoActivadorTrampa","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tagCharacter","value":{"$content":"Player","$type":"System.String"},"$version":"A"},{"name":"isTrampaActivada","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoPinchosSuelo","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damage","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244881358354458959, guid: 52cc00a5e75f83044b4ad013583bfb2c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 299250273}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52cc00a5e75f83044b4ad013583bfb2c, type: 3}
 --- !u!1001 &258588864
@@ -477,6 +492,25 @@ Transform:
   m_Father: {fileID: 1317173481}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &299250273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 562000464706078414, guid: 52cc00a5e75f83044b4ad013583bfb2c,
+    type: 3}
+  m_PrefabInstance: {fileID: 180111429}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &299250275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299250273}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8, z: 8}
+  m_Center: {x: -0.5, y: 2, z: 0}
 --- !u!1 &351051964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,12 +1081,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &842088485 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5387994413088939387, guid: 31f3c140afcad6147918eedfe9b94630,
-    type: 3}
-  m_PrefabInstance: {fileID: 959432202}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &894689558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,26 +1231,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1220689863}
     m_Modifications:
-    - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Sierra2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 842088485}
-    - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[1]
-      value: 
-      objectReference: {fileID: 2085869982}
     - target: {fileID: 4784331125844208715, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: m_Name
@@ -1282,26 +1290,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4806297266499298621, guid: 31f3c140afcad6147918eedfe9b94630,
-        type: 3}
-      propertyPath: m_Name
-      value: Palo
-      objectReference: {fileID: 0}
-    - target: {fileID: 4806297267210975922, guid: 31f3c140afcad6147918eedfe9b94630,
-        type: 3}
-      propertyPath: m_Name
-      value: Sierra
-      objectReference: {fileID: 0}
-    - target: {fileID: 5387994413088939387, guid: 31f3c140afcad6147918eedfe9b94630,
-        type: 3}
-      propertyPath: m_Name
-      value: Sierra
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043465763524766779, guid: 31f3c140afcad6147918eedfe9b94630,
-        type: 3}
-      propertyPath: m_Name
-      value: Palo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f3c140afcad6147918eedfe9b94630, type: 3}
@@ -3136,12 +3124,6 @@ Transform:
   m_Father: {fileID: 1317173481}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
---- !u!1 &2085869982 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4806297267210975922, guid: 31f3c140afcad6147918eedfe9b94630,
-    type: 3}
-  m_PrefabInstance: {fileID: 959432202}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2088725034
 PrefabInstance:
   m_ObjectHideFlags: 0
