@@ -910,8 +910,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 40.999}
-  m_SizeDelta: {x: 300, y: 250}
+  m_AnchoredPosition: {x: 249.2, y: 40.999}
+  m_SizeDelta: {x: 278.3, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2103798881
 MonoBehaviour:
@@ -946,9 +946,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Debes encontrar la salida del Laberinto, evitando morir por las trampas
-    o los enemigos que te ir\xE1s encontrando en el camino.\n\nLa Salida estar\xE1
-    marcada con una puerta verde."
+  m_Text: "Debes encontrar la salida del Laberinto antes de que se acabe el tiempo,
+    evitando morir por las trampas o los enemigos que te ir\xE1s encontrando en el
+    camino.\n\nLa Salida estar\xE1 marcada con una puerta verde."
 --- !u!222 &2103798882
 CanvasRenderer:
   m_ObjectHideFlags: 0
