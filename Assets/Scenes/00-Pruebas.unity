@@ -2432,6 +2432,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 917221784628088059, guid: efde8af004a6f2f44920f5a74901ea73,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 917221784628088059, guid: efde8af004a6f2f44920f5a74901ea73,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveVelocity","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"runVelocity","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"isMovingF","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRotate","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotateVelocity","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"isRotatingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isRotatingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":7500.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"particlesStepR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesStepL","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesLand","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenCanvasVidaRestante","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canTakeDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 917221784628088059, guid: efde8af004a6f2f44920f5a74901ea73,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 1682394431}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efde8af004a6f2f44920f5a74901ea73, type: 3}
 --- !u!1 &1317173480
@@ -3134,6 +3149,12 @@ Transform:
 --- !u!1 &1682394427 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3373898375147628014, guid: efde8af004a6f2f44920f5a74901ea73,
+    type: 3}
+  m_PrefabInstance: {fileID: 1278123515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1682394431 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 1853604132, guid: efde8af004a6f2f44920f5a74901ea73,
     type: 3}
   m_PrefabInstance: {fileID: 1278123515}
   m_PrefabAsset: {fileID: 0}
