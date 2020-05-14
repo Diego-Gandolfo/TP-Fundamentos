@@ -1,0 +1,25 @@
+ 
+Para la 1er Entrega:
+ 
+- Bajar la Música
+- Hacer que las trampas muestren en la Escena algún indicio de que no es un piso normal
+- Arreglar la animación del EnemyMage
+- Mejorar la inteligencia del EnemyMage y aumentarle el daño y Cooldown del ataque para dar lugar a que el jugador esté forzado a jugar de forma inteligente
+- Hacer que se note más que el EnemyMage es el Boss (barra de vida más grande, algún aura, aumentarle un poco el tamaño, etc)
+- Hacer animación de TrampaHuecoPiso
+- AreaAttack del Character, no siempre pega
+- Hacer que Ataque Rápido se pueda hacer moviendose
+ 
+Para la 2da Entrega:
+ 
+- Hacer al menos un Nivel mas
+- Hacer dos Enemigos mas
+- Hacer tres trampas mas
+- Mejorar los Sonidos
+- Evaluar la tipografía
+- Optimizar Texturas, Materiales y Sonido
+- Mejorar los Materiales de las llaves y las "puertas"
+- Opción Melee? Que ventajas tendría? Se podría mover más rápido y la patada alejar al enemigo para darle tiempo de sacar la espada
+- Balancear Daños de Enemigos y HealArea
+- Hacer que los Enemigos no se suiciden en las TrampasHuecoPiso
+ 
