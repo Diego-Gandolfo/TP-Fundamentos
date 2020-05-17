@@ -1,8 +1,7 @@
  
 Para la 1er Entrega:
  
-- Mejorar la inteligencia del EnemyMage y aumentarle el daño y Cooldown del ataque para dar lugar a que el jugador esté forzado a jugar de forma inteligente
-- AreaAttack del Character, no siempre pega
+- Mejorar la inteligencia del EnemyMage
  
 Para la 2da Entrega:
  
