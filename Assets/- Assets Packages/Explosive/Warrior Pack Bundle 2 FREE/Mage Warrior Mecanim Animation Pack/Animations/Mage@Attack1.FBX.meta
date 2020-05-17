@@ -521,9 +521,23 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.3983573
+      - time: 0.33059156
+        functionName: TriggerAnimationEvent
+        data: OnStartAttack
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.41796514
         functionName: TriggerAnimationEvent
         data: OnHit
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.49925223
+        functionName: TriggerAnimationEvent
+        data: OnEndAttack
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
