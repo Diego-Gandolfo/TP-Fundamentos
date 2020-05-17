@@ -1,7 +1,6 @@
  
 Para la 1er Entrega:
  
-- Hacer que las trampas muestren en la Escena algún indicio de que no es un piso normal
 - Mejorar la inteligencia del EnemyMage y aumentarle el daño y Cooldown del ataque para dar lugar a que el jugador esté forzado a jugar de forma inteligente
 - AreaAttack del Character, no siempre pega
  
