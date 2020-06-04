@@ -730,7 +730,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -857,7 +857,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1282,7 +1282,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1409,7 +1409,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1490,7 +1490,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 800fa3cbf14c7324b9f82a04e14355f2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b76357a42d03a4722afcba74c3073136, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.25
   m_Pitch: 1
@@ -1536,7 +1536,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1702,7 +1702,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b1a8aa9aa30a5c9489254cbc8b2af365, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 52fa067c25c5c401b811eb86d142287e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.25
   m_Pitch: 1
@@ -1748,7 +1748,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2119,10 +2119,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
-    - target: {fileID: 1171430728, guid: e46aa706c102dc845a55fa5d602da98a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9131569004338824268, guid: e46aa706c102dc845a55fa5d602da98a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2193,6 +2189,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 4499147109199188122, guid: e46aa706c102dc845a55fa5d602da98a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.108
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499147109199188122, guid: e46aa706c102dc845a55fa5d602da98a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.143
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499147109199188122, guid: e46aa706c102dc845a55fa5d602da98a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.005
+      objectReference: {fileID: 0}
     - target: {fileID: 1171430729, guid: e46aa706c102dc845a55fa5d602da98a, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.045729734
@@ -2241,20 +2252,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.128
       objectReference: {fileID: 0}
-    - target: {fileID: 4499147109199188122, guid: e46aa706c102dc845a55fa5d602da98a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.108
-      objectReference: {fileID: 0}
-    - target: {fileID: 4499147109199188122, guid: e46aa706c102dc845a55fa5d602da98a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.143
-      objectReference: {fileID: 0}
-    - target: {fileID: 4499147109199188122, guid: e46aa706c102dc845a55fa5d602da98a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.005
+    - target: {fileID: 1171430728, guid: e46aa706c102dc845a55fa5d602da98a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46aa706c102dc845a55fa5d602da98a, type: 3}
