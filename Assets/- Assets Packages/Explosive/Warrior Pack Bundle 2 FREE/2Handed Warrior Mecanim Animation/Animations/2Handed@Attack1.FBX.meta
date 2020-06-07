@@ -541,7 +541,7 @@ ModelImporter:
       events:
       - time: 0.47843942
         functionName: TriggerAnimationEvent
-        data: Onhit
+        data: OnHit
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
