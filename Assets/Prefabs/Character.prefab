@@ -811,7 +811,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b47451ea950fdcb45afc2b31594fb0a2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 60171b8bec91b794cabf54fb085f876b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -1056,6 +1056,7 @@ Transform:
   - {fileID: 842585499069966500}
   - {fileID: 1153388600112085199}
   - {fileID: 4159376825991024250}
+  - {fileID: 6945079352049683054}
   m_Father: {fileID: 6139044390113398373}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1143,7 +1144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveVelocity","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"runVelocity","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"isMovingF","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRotate","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotateVelocity","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"isRotatingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isRotatingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":7500.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"particlesStepR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesStepL","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesLand","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea2","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenCanvasVidaRestante","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canTakeDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canRoll","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoCamara","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimitePantallaIzquierda","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimiteCentro","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimitePantallaDerecha","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque1","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque2","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoRoll","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoJump","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDamage","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDead","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoStep","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveVelocity","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"runVelocity","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"isMovingF","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRotate","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotateVelocity","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"isRotatingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isRotatingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":7500.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"particlesStepR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesStepL","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesLand","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea2","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenCanvasVidaRestante","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canTakeDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canRoll","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoCamara","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimitePantallaIzquierda","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimiteCentro","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimitePantallaDerecha","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque1","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque2","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoRoll","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoJump","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDamage","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDead","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoStep","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoJumpLanding","value":{"$content":17,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2566183605158749403}
     - {fileID: 4800500177368592397}
@@ -1162,6 +1163,7 @@ MonoBehaviour:
     - {fileID: 4184523113523658517}
     - {fileID: 1009320825558468398}
     - {fileID: 6214285207216967689}
+    - {fileID: 3153273658336875017}
 --- !u!114 &-208189744464742351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1377,6 +1379,133 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &4620717901932977850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6945079352049683054}
+  - component: {fileID: 3153273658336875017}
+  m_Layer: 0
+  m_Name: JumpLandng
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6945079352049683054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4620717901932977850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3172181167854672202}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &3153273658336875017
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4620717901932977850}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f428cdec74491dc44ae353d45112e5c8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.25
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0.5
+  MaxDistance: 25
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -1832,7 +1961,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e14e9a4b309b91c468f48de7e0300875, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
@@ -2387,15 +2516,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46aa706c102dc845a55fa5d602da98a, type: 3}
---- !u!198 &4800500177368592397 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 4302677417142113879, guid: e46aa706c102dc845a55fa5d602da98a,
-    type: 3}
-  m_PrefabInstance: {fileID: 8730477648789694042}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2566183605158749403 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6535859193498550913, guid: e46aa706c102dc845a55fa5d602da98a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8730477648789694042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &4800500177368592397 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4302677417142113879, guid: e46aa706c102dc845a55fa5d602da98a,
     type: 3}
   m_PrefabInstance: {fileID: 8730477648789694042}
   m_PrefabAsset: {fileID: 0}

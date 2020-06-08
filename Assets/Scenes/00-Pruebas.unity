@@ -3664,71 +3664,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 545281396517469678, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517469678, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517469678, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517469678, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517469678, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0017328262
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517468968, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.00000065565104
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517468968, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.000000059604638
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517468968, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.032254037
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517468968, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9994798
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517468968, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.2527174
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517468968, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.00015711783
-      objectReference: {fileID: 0}
-    - target: {fileID: 545281396517468968, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.000006638468
-      objectReference: {fileID: 0}
-    - target: {fileID: 917221784628088059, guid: efde8af004a6f2f44920f5a74901ea73,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveVelocity","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"runVelocity","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"isMovingF","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRotate","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotateVelocity","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"isRotatingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isRotatingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":7500.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"particlesStepR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesStepL","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesLand","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea2","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenCanvasVidaRestante","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canTakeDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canRoll","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoCamara","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimitePantallaIzquierda","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimiteCentro","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimitePantallaDerecha","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque1","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque2","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoRoll","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoJump","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDamage","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDead","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efde8af004a6f2f44920f5a74901ea73, type: 3}
 --- !u!1 &1317173480
@@ -4102,7 +4037,7 @@ PrefabInstance:
     - target: {fileID: 6959823369447298229, guid: 0f1de007356dc0b4fa7fad983bfc96f9,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400241722778397673, guid: 0f1de007356dc0b4fa7fad983bfc96f9,
         type: 3}
