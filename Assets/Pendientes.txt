@@ -5,14 +5,13 @@ Para la 1er Entrega:
  
 Para la 2da Entrega:
  
-- Hacer al menos un Nivel mas
-- Hacer dos Enemigos mas
-- Hacer tres trampas mas
-- Mejorar los Sonidos
-- Evaluar la tipografía
-- Optimizar Texturas, Materiales y Sonido
-- Mejorar los Materiales de las llaves y las "puertas"
-- Opción Melee? Que ventajas tendría? Se podría mover más rápido y la patada alejar al enemigo para darle tiempo de sacar la espada
+- Mejorar los Materiales de las llaves y las Puertas
 - Balancear Daños de Enemigos y HealArea
 - Hacer que los Enemigos no se suiciden en las TrampasHuecoPiso
  
+Detalles a arreglar
+
+- Nivelar la Música y Sonidos
+- Mejorar el último Nivel
+- Hacer que el EnemyKnight cierre unas paredes para que el Character no pueda huir y tenga que enfrentarsele
+- Modificar el Golpe Amplio para que golpee a varios
