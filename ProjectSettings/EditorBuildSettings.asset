@@ -6,30 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/01-MenuPrincipal.unity
+    path: Assets/Scenes/01-MenuPrincipalConIntro.unity
     guid: 04b2ef83d07e972438b114fd51aba486
   - enabled: 1
-    path: Assets/Scenes/02-SeleccionNiveles.unity
+    path: Assets/Scenes/02-MenuPrincipalSinIntro.unity
+    guid: 09ea568208d7c0947ad7f8a250994316
+  - enabled: 1
+    path: Assets/Scenes/03-SeleccionNiveles.unity
     guid: ab47f05bdf3e90145a165591970bb086
   - enabled: 1
-    path: Assets/Scenes/03-Nivel0001.unity
+    path: Assets/Scenes/04-Nivel0001.unity
     guid: 4c264cbfb166a4f4ba69361f9890b95c
   - enabled: 1
-    path: Assets/Scenes/04-Nivel0002.unity
+    path: Assets/Scenes/05-Nivel0002.unity
     guid: 9db133eb19ff6994bae1869776cfe3ee
   - enabled: 1
-    path: Assets/Scenes/05-Nivel0003.unity
+    path: Assets/Scenes/06-Nivel0003.unity
     guid: f22745709ea34184ea7483446d230d72
   - enabled: 1
-    path: Assets/Scenes/06-EscenaDerrota.unity
+    path: Assets/Scenes/07-EscenaDerrota.unity
     guid: 84eced2a8aac41b4ebc82d8be5980ba5
   - enabled: 1
-    path: Assets/Scenes/07-EscenaVictoria.unity
+    path: Assets/Scenes/08-EscenaVictoria.unity
     guid: 12d9cc5dec03aa44fac942c7579a7a03
   - enabled: 1
-    path: Assets/Scenes/08-Tutorial.unity
+    path: Assets/Scenes/09-Tutorial.unity
     guid: 47ed7525f041186468d00293a7bbc65f
   - enabled: 1
-    path: Assets/Scenes/09-Creditos.unity
+    path: Assets/Scenes/10-Creditos.unity
     guid: 59afaebc8a3e2c248b8401d980519a92
   m_configObjects: {}
