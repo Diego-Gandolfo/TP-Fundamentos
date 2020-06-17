@@ -1,7 +1,6 @@
  
 Detalles a arreglar:
 - Mejorar el último Nivel
-- Hacer que el EnemyKnight cierre unas paredes para que el Character no pueda huir y tenga que enfrentarsele
 - Modificar el Golpe Amplio para que golpee a varios
 
 Feedback:
