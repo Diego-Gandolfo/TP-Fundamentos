@@ -1,11 +1,4 @@
  
-Para la 1er Entrega:
-- Mejorar la inteligencia del EnemyMage
- 
-Para la 2da Entrega:
-- Mejorar los Materiales de las llaves y las Puertas
-- Hacer que los Enemigos no se suiciden en las TrampasHuecoPiso
- 
 Detalles a arreglar:
 - Mejorar el último Nivel
 - Hacer que el EnemyKnight cierre unas paredes para que el Character no pueda huir y tenga que enfrentarsele
@@ -13,5 +6,4 @@ Detalles a arreglar:
 
 Feedback:
 - Que al matar los enemigos se gane algo
-- Cambiar Collider Puertas
 - Feedback trampas
