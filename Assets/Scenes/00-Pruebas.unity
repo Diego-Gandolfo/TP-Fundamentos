@@ -7652,6 +7652,12 @@ Transform:
   m_Father: {fileID: 1317173481}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!82 &1655480690 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4841109283100158767, guid: 53aaf97874807a940852d779bb670f28,
+    type: 3}
+  m_PrefabInstance: {fileID: 1776360899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1682394427 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3373898375147628014, guid: efde8af004a6f2f44920f5a74901ea73,
@@ -7727,7 +7733,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2244881358354458959, guid: 53aaf97874807a940852d779bb670f28,
         type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244881358354458959, guid: 53aaf97874807a940852d779bb670f28,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 1655480690}
+    - target: {fileID: 2244881358354458959, guid: 53aaf97874807a940852d779bb670f28,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"objetoActivadorTrampa","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tagCharacter","value":{"$content":"Player","$type":"System.String"},"$version":"A"},{"name":"isTrampaActivada","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoSueloEscena","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoActivar","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244881358354458959, guid: 53aaf97874807a940852d779bb670f28,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 2107912462}
     m_RemovedComponents: []
