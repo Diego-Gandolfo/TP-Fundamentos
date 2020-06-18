@@ -1,7 +1,6 @@
  
 Detalles a arreglar:
 - Mejorar el último Nivel
-- Modificar el Golpe Amplio para que golpee a varios
 
 Feedback:
 - Que al matar los enemigos se gane algo
