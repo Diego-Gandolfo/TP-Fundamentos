@@ -1835,6 +1835,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3226664791789950609}
   - component: {fileID: 4449051597065393678}
+  - component: {fileID: 2600746855262605834}
+  - component: {fileID: 8678186985965611331}
+  - component: {fileID: 7370390750930497914}
+  - component: {fileID: 6294916141123931648}
   m_Layer: 0
   m_Name: ActivadorTrampa
   m_TagString: Untagged
@@ -1867,8 +1871,60 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 50, z: 50}
-  m_Center: {x: 0, y: 25, z: 0}
+  m_Size: {x: 10, y: 30, z: 10}
+  m_Center: {x: 0, y: 15, z: 0}
+--- !u!65 &2600746855262605834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985175191327344402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 10, z: 10}
+  m_Center: {x: 10, y: 5, z: 0}
+--- !u!65 &8678186985965611331
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985175191327344402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 10, z: 10}
+  m_Center: {x: -10, y: 5, z: 0}
+--- !u!65 &7370390750930497914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985175191327344402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 30}
+  m_Center: {x: 0, y: 5, z: 10}
+--- !u!65 &6294916141123931648
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985175191327344402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 30}
+  m_Center: {x: 0, y: 5, z: -10}
 --- !u!1 &2019964134765543662
 GameObject:
   m_ObjectHideFlags: 0
