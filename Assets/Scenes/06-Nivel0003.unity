@@ -5935,7 +5935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"keyBlue","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"keyGreen","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"keyRed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"keyBlue","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"keyGreen","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"keyRed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isPaused","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &1048402814
 Transform:
