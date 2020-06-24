@@ -1,7 +1,0 @@
- 
-Detalles a arreglar:
-- Mejorar el último Nivel
-
-Feedback:
-- Que al matar los enemigos se gane algo
-- Feedback trampas
