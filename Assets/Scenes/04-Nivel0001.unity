@@ -345,12 +345,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 98079507}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &112418032 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6162772065393934621, guid: 53aaf97874807a940852d779bb670f28,
-    type: 3}
-  m_PrefabInstance: {fileID: 813280826}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &118350298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,7 +2595,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
-      objectReference: {fileID: 112418032}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244881358354458959, guid: 53aaf97874807a940852d779bb670f28,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
@@ -5045,7 +5039,7 @@ PrefabInstance:
     - target: {fileID: 6013071723649646480, guid: e4a70914b2b789f41ad707f65bd37758,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"tiempoDerrota","value":{"$content":150.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenReloj","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"escenaActual","value":{"$content":"04-Nivel0001","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"tiempoDerrota","value":{"$content":150.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenReloj","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"escenaActual","value":{"$content":"04-Nivel0001","$type":"System.String"},"$version":"A"},{"name":"objetoBonus","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6013071722992024839, guid: e4a70914b2b789f41ad707f65bd37758,
         type: 3}
