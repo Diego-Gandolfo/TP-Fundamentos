@@ -3244,6 +3244,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2196569153852254960, guid: 2b113f73923101443b3282baeafd49af,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196569153852254960, guid: 2b113f73923101443b3282baeafd49af,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0017318726
+      objectReference: {fileID: 0}
     - target: {fileID: 2196569153852254966, guid: 2b113f73923101443b3282baeafd49af,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -3693,16 +3703,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.00000024214387
-      objectReference: {fileID: 0}
-    - target: {fileID: 2196569153852254960, guid: 2b113f73923101443b3282baeafd49af,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2196569153852254960, guid: 2b113f73923101443b3282baeafd49af,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0017318726
       objectReference: {fileID: 0}
     - target: {fileID: 2196569153852254956, guid: 2b113f73923101443b3282baeafd49af,
         type: 3}
@@ -9208,7 +9208,7 @@ PrefabInstance:
     - target: {fileID: 6013071723649646480, guid: e4a70914b2b789f41ad707f65bd37758,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"tiempoDerrota","value":{"$content":150.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenReloj","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"escenaActual","value":{"$content":"00-Pruebas","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"tiempoDerrota","value":{"$content":150.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenReloj","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"escenaActual","value":{"$content":"00-Pruebas","$type":"System.String"},"$version":"A"},{"name":"objetoBonus","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6013071722992024839, guid: e4a70914b2b789f41ad707f65bd37758,
         type: 3}
