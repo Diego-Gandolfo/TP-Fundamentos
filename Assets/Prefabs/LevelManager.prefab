@@ -376,10 +376,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"tiempoDerrota","value":{"$content":300.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenReloj","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"escenaActual","value":{"$content":"00-Pruebas","$type":"System.String"},"$version":"A"},{"name":"objetoBonus","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"tiempoDerrota","value":{"$content":300.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenReloj","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"escenaActual","value":{"$content":"00-Pruebas","$type":"System.String"},"$version":"A"},{"name":"objetoBonus","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoBonusText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6013071722807671493}
     - {fileID: 2170522276670910983}
+    - {fileID: 4800818698305893908}
 --- !u!114 &6013071723649646481
 MonoBehaviour:
   m_ObjectHideFlags: 0
