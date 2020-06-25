@@ -873,7 +873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351051965}
   m_Layer: 0
-  m_Name: Pasillo (15)
+  m_Name: Pasillo (15) - Door Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -911,7 +911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 377449614}
   m_Layer: 0
-  m_Name: Pasillo (22)
+  m_Name: Pasillo (22) - TrampaPinchosSuelo + TrampaSierraPendulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -950,7 +950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 462624369}
   m_Layer: 0
-  m_Name: Pasillo (19)
+  m_Name: Pasillo (19) - EnemyMage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1132,7 +1132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 534068813}
   m_Layer: 0
-  m_Name: Pasillo (13)
+  m_Name: Pasillo (13) - Door Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1301,7 +1301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606811309}
   m_Layer: 0
-  m_Name: Pasillo (17)
+  m_Name: Pasillo (17) - Enemy2Handed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1333,7 +1333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606903010}
   m_Layer: 0
-  m_Name: Pasillo (24)
+  m_Name: Pasillo (24) - EnemyCrossbow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1841,7 +1841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 894689559}
   m_Layer: 0
-  m_Name: BifurcacionRecDerIzq (1)
+  m_Name: BifurcacionRecDerIzq (1) - HealArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2244,7 +2244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 958797416}
   m_Layer: 0
-  m_Name: Pasillo (18)
+  m_Name: Pasillo (18) - Key Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3021,7 +3021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1233314949}
   m_Layer: 0
-  m_Name: Pasillo (20)
+  m_Name: Pasillo (20) - Door Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7452,7 +7452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1539221087}
   m_Layer: 0
-  m_Name: SinSalida (2)
+  m_Name: SinSalida (2) - Key Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8117,7 +8117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1932526940}
   m_Layer: 0
-  m_Name: SinSalida (1)
+  m_Name: SinSalida (1) - Key Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
