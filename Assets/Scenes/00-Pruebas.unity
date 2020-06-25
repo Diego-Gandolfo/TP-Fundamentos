@@ -622,7 +622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 279333755}
   m_Layer: 0
-  m_Name: Pasillo (3)
+  m_Name: Pasillo (3) - TrampaPozo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7869,7 +7869,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1857687956}
   m_Layer: 0
-  m_Name: Pasillo (1)
+  m_Name: Pasillo (1) - TrampaPuertaSecreta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
