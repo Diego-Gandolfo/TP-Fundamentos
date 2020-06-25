@@ -5038,13 +5038,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6013071723649646480, guid: e4a70914b2b789f41ad707f65bd37758,
         type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013071723649646480, guid: e4a70914b2b789f41ad707f65bd37758,
-        type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"tiempoDerrota","value":{"$content":150.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenReloj","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"escenaActual","value":{"$content":"04-Nivel0001","$type":"System.String"},"$version":"A"},{"name":"objetoBonus","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoBonusText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"tiempoDerrota","value":{"$content":150.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenReloj","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"escenaActual","value":{"$content":"04-Nivel0001","$type":"System.String"},"$version":"A"},{"name":"objetoBonus","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoBonusText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoReloj","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"imagenRelojFondo","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6013071722992024839, guid: e4a70914b2b789f41ad707f65bd37758,
         type: 3}
