@@ -394,6 +394,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrampaPinchosSuelo
       objectReference: {fileID: 0}
+    - target: {fileID: 6108994886582337722, guid: 52cc00a5e75f83044b4ad013583bfb2c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8230658870272452311, guid: 52cc00a5e75f83044b4ad013583bfb2c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2061,6 +2066,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrampaSierraLateral
       objectReference: {fileID: 0}
+    - target: {fileID: 4898581620469578187, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2267,6 +2277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrampaSierraPendulo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784331125844208715, guid: 31f3c140afcad6147918eedfe9b94630,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7249657502313417254, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
@@ -2755,7 +2770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1094324453}
   m_Layer: 0
-  m_Name: GiroDerecha (1)
+  m_Name: GiroDerecha (1) - Enemys
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2974,7 +2989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1220689863}
   m_Layer: 0
-  m_Name: Pasillo (5)
+  m_Name: Pasillo (5) - TrampaSierraPendulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3243,16 +3258,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2196569153852254960, guid: 2b113f73923101443b3282baeafd49af,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2196569153852254960, guid: 2b113f73923101443b3282baeafd49af,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0017318726
       objectReference: {fileID: 0}
     - target: {fileID: 2196569153852254966, guid: 2b113f73923101443b3282baeafd49af,
         type: 3}
@@ -3703,6 +3708,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.00000024214387
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196569153852254960, guid: 2b113f73923101443b3282baeafd49af,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196569153852254960, guid: 2b113f73923101443b3282baeafd49af,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0017318726
       objectReference: {fileID: 0}
     - target: {fileID: 2196569153852254956, guid: 2b113f73923101443b3282baeafd49af,
         type: 3}
@@ -5162,7 +5177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1372902730}
   m_Layer: 0
-  m_Name: Pasillo (4)
+  m_Name: Pasillo (4) - TrampaSierraLateral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8221,7 +8236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2020773116}
   m_Layer: 0
-  m_Name: Pasillo (7)
+  m_Name: Pasillo (7) - TrampaPinchosSuelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8662,7 +8677,7 @@ PrefabInstance:
     - target: {fileID: 2805331481137937815, guid: b969d50d61f4bb94c95fa5c15ce53b9c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4896883792650896075, guid: b969d50d61f4bb94c95fa5c15ce53b9c,
         type: 3}
