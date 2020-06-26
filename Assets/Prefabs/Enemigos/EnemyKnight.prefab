@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"objectPlayerDetector","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAttackReachArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAreaAttack","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectPlayer","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"speedVelocity","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"speedVelocityVisible","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"speedVelocityInvisible","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"attackCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenCanvasVidaRestante","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoMuerte","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectImportedPrefab","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectCanvas","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoAtaque","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoCarga","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoStep","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damageCooldown","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"meshRenderer","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoDamage","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLevelManager","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"addedTime","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"timeBeforeJump","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"timeAfterJump","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"objectPlayerDetector","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAttackReachArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectAreaAttack","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectPlayer","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"speedVelocity","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"speedVelocityVisible","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"speedVelocityInvisible","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"attackCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenCanvasVidaRestante","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoMuerte","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectImportedPrefab","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objectCanvas","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoAtaque","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoCarga","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoStep","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damageCooldown","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"meshRenderer","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoDamage","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLevelManager","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"addedTime","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"timeBeforeJump","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"timeAfterJump","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 4797613710513342705}
     - {fileID: 6531217002713913268}
@@ -713,8 +713,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3862666764732096847}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 1}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4896883792650896075}
   m_RootOrder: 3
@@ -730,8 +730,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3, y: 3, z: 2.5}
+  m_Center: {x: 0, y: 1.5, z: 1.75}
 --- !u!114 &4270459058157326581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2968,8 +2968,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1}
-  m_Center: {x: 0, y: 1, z: 1}
+  m_Size: {x: 3, y: 3, z: 2.5}
+  m_Center: {x: 0, y: 1.5, z: 1.75}
 --- !u!1 &8849830184746883120
 GameObject:
   m_ObjectHideFlags: 0
