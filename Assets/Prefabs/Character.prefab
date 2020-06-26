@@ -379,7 +379,6 @@ RectTransform:
   - {fileID: 515748185}
   - {fileID: 3581647645394943855}
   - {fileID: 4483032236566604994}
-  - {fileID: 2085028582550415344}
   m_Father: {fileID: 6139044390113398373}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1730,7 +1729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveVelocity","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"runVelocity","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"isMovingF","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRotate","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotateVelocity","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"isRotatingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isRotatingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":7500.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"particlesStepR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesStepL","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesLand","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea2","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenCanvasVidaRestante","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canTakeDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canRoll","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoCamara","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimitePantallaIzquierda","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimiteCentro","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoLimitePantallaDerecha","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque1","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque2","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoRoll","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoJump","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDamage","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDead","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoStep","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoJumpLanding","value":{"$content":17,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inGameMenu","value":{"$content":18,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"spriteKeyBlue","value":{"$content":19,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"spriteKeyGreen","value":{"$content":20,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"spriteKeyRed","value":{"$content":21,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inGameMenu_Menu","value":{"$content":22,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inGameMenu_Advertencia","value":{"$content":23,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inGameMenu_Advertencia2","value":{"$content":24,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveVelocity","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"runVelocity","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"isMovingF","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isMovingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRotate","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotateVelocity","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"isRotatingR","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isRotatingL","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"floorTag","value":{"$content":"Floor","$type":"System.String"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpImpulse","value":{"$content":7500.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"particlesStepR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesStepL","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"particlesLand","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea2","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"imagenCanvasVidaRestante","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canTakeDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canRoll","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoCamara","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque1","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoAtaque2","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoRoll","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoJump","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDamage","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoDead","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoStep","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"objetoSonidoJumpLanding","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"spriteKeyBlue","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"spriteKeyGreen","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"spriteKeyRed","value":{"$content":17,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inGameMenu","value":{"$content":18,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inGameMenu_Menu","value":{"$content":19,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inGameMenu_Advertencia","value":{"$content":20,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inGameMenu_Advertencia2","value":{"$content":21,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2566183605158749403}
     - {fileID: 4800500177368592397}
@@ -1739,9 +1738,6 @@ MonoBehaviour:
     - {fileID: 8887818035003383429}
     - {fileID: 638548916}
     - {fileID: 310897490}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
     - {fileID: 6936540141165757454}
     - {fileID: 5724504543263404982}
     - {fileID: 1286595291525701151}
@@ -1750,10 +1746,10 @@ MonoBehaviour:
     - {fileID: 1009320825558468398}
     - {fileID: 6214285207216967689}
     - {fileID: 3153273658336875017}
-    - {fileID: 6231319894856590995}
     - {fileID: 2232760756822594441}
     - {fileID: 444947819110196409}
     - {fileID: 7000418661179916287}
+    - {fileID: 6231319894856590995}
     - {fileID: 1323116517639384215}
     - {fileID: 5911500111348757418}
     - {fileID: 8245125844653560014}
@@ -1792,42 +1788,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &3480520671290716804
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2085028582550415344}
-  m_Layer: 5
-  m_Name: Tutorial InGame
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &2085028582550415344
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3480520671290716804}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 118928770188972744}
-  m_Father: {fileID: 1568375108}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3898404940947924044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2491,87 +2451,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &5282823009465352124
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 118928770188972744}
-  - component: {fileID: 6338691976307197785}
-  - component: {fileID: 8165981565364018759}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &118928770188972744
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5282823009465352124}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2085028582550415344}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 500}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &6338691976307197785
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5282823009465352124}
-  m_CullTransparentMesh: 0
---- !u!114 &8165981565364018759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5282823009465352124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.9309355, g: 0.9433962, b: 0.07564971, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 32
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Press ESC to see the Menu
-
-'
 --- !u!1 &5642939472307106570
 GameObject:
   m_ObjectHideFlags: 0
@@ -4167,15 +4046,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b846d21c0efd1344bd24469ef84931a, type: 3}
---- !u!4 &7493144753111132039 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8013190505597068520, guid: 8b846d21c0efd1344bd24469ef84931a,
-    type: 3}
-  m_PrefabInstance: {fileID: 632875856278061935}
-  m_PrefabAsset: {fileID: 0}
 --- !u!198 &2881645167392754424 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 3401840872223574423, guid: 8b846d21c0efd1344bd24469ef84931a,
+    type: 3}
+  m_PrefabInstance: {fileID: 632875856278061935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7493144753111132039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8013190505597068520, guid: 8b846d21c0efd1344bd24469ef84931a,
     type: 3}
   m_PrefabInstance: {fileID: 632875856278061935}
   m_PrefabAsset: {fileID: 0}
