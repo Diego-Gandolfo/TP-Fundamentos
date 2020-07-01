@@ -6,36 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/01-MenuPrincipalConIntro.unity
+    path: Assets/Scenes/MenuPrincipalConIntro.unity
     guid: 04b2ef83d07e972438b114fd51aba486
   - enabled: 1
-    path: Assets/Scenes/02-MenuPrincipalSinIntro.unity
+    path: Assets/Scenes/MenuPrincipalSinIntro.unity
     guid: 09ea568208d7c0947ad7f8a250994316
   - enabled: 1
-    path: Assets/Scenes/03-SeleccionNiveles.unity
+    path: Assets/Scenes/SeleccionNiveles.unity
     guid: ab47f05bdf3e90145a165591970bb086
   - enabled: 1
-    path: Assets/Scenes/04-Nivel0001.unity
+    path: Assets/Scenes/Nivel0001.unity
     guid: 4c264cbfb166a4f4ba69361f9890b95c
   - enabled: 1
-    path: Assets/Scenes/05-Nivel0002.unity
+    path: Assets/Scenes/Nivel0002.unity
     guid: 9db133eb19ff6994bae1869776cfe3ee
   - enabled: 1
-    path: Assets/Scenes/06-Nivel0003.unity
+    path: Assets/Scenes/Nivel0003.unity
     guid: f22745709ea34184ea7483446d230d72
   - enabled: 1
-    path: Assets/Scenes/07-EscenaDerrota.unity
+    path: Assets/Scenes/Nivel0004.unity
+    guid: a0c0387487caad84680b44c98b48e33e
+  - enabled: 1
+    path: Assets/Scenes/Nivel0005.unity
+    guid: fee2d84583b859d4fb48507470d6b98d
+  - enabled: 1
+    path: Assets/Scenes/Nivel0006.unity
+    guid: f7ea1c171ae0b9f47b6783e6a431c67a
+  - enabled: 1
+    path: Assets/Scenes/Nivel0007.unity
+    guid: dd40458ce6e73ce4e9b58b5273e4864d
+  - enabled: 1
+    path: Assets/Scenes/EscenaDerrota.unity
     guid: 84eced2a8aac41b4ebc82d8be5980ba5
   - enabled: 1
-    path: Assets/Scenes/08-EscenaVictoria.unity
+    path: Assets/Scenes/EscenaVictoria.unity
     guid: 12d9cc5dec03aa44fac942c7579a7a03
   - enabled: 1
-    path: Assets/Scenes/09-Tutorial.unity
+    path: Assets/Scenes/Tutorial.unity
     guid: 47ed7525f041186468d00293a7bbc65f
   - enabled: 1
-    path: Assets/Scenes/10-Creditos.unity
+    path: Assets/Scenes/Creditos.unity
     guid: 59afaebc8a3e2c248b8401d980519a92
   - enabled: 1
-    path: Assets/Scenes/11-ComingSoon.unity
+    path: Assets/Scenes/ComingSoon.unity
     guid: daa2146ad9a4ce346a15acd4d87bc364
   m_configObjects: {}
