@@ -256,6 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3226664791789950609}
   - component: {fileID: 4449051597065393678}
+  - component: {fileID: 7221684632586877400}
   m_Layer: 0
   m_Name: ActivadorTrampa
   m_TagString: Untagged
@@ -288,8 +289,21 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 20}
-  m_Center: {x: 0, y: 5, z: -15}
+  m_Size: {x: 10, y: 10, z: 30}
+  m_Center: {x: 0, y: 5, z: -10}
+--- !u!65 &7221684632586877400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985175191327344402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 30}
+  m_Center: {x: 0, y: 5, z: 10}
 --- !u!1 &2234569489715842608
 GameObject:
   m_ObjectHideFlags: 0
