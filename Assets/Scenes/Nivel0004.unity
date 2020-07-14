@@ -377,7 +377,7 @@ PrefabInstance:
     - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.25,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f3c140afcad6147918eedfe9b94630, type: 3}
@@ -1097,6 +1097,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":0.75,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
 --- !u!4 &125233052 stripped
@@ -1260,6 +1265,96 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2201151194706099392, guid: 5cb62559c004360439c843432fb5cf78,
     type: 3}
   m_PrefabInstance: {fileID: 145181132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &151430938
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2004320069}
+    m_Modifications:
+    - target: {fileID: 4898581620469578187, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_Name
+      value: TrampaSierraLateral (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
+--- !u!4 &151430939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+    type: 3}
+  m_PrefabInstance: {fileID: 151430938}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &162682991
 GameObject:
@@ -1915,6 +2010,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2244881358354458959, guid: 52cc00a5e75f83044b4ad013583bfb2c,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"objetoActivadorTrampa","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tagCharacter","value":{"$content":"Player","$type":"System.String"},"$version":"A"},{"name":"isTrampaActivada","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoPinchosSuelo","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damage","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"sonidoPinchesSaliendo","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"animationVelocity","value":{"$content":0.75,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52cc00a5e75f83044b4ad013583bfb2c, type: 3}
 --- !u!1 &231398825
@@ -2200,7 +2300,7 @@ PrefabInstance:
     - target: {fileID: 7249657502313417254, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7249657502313417254, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
@@ -2245,7 +2345,7 @@ PrefabInstance:
     - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f3c140afcad6147918eedfe9b94630, type: 3}
@@ -2556,7 +2656,7 @@ PrefabInstance:
     - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f3c140afcad6147918eedfe9b94630, type: 3}
@@ -2740,6 +2840,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 320272954}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &322415108
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 438868368}
+    m_Modifications:
+    - target: {fileID: 4898581620469578187, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_Name
+      value: TrampaSierraLateral (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
+--- !u!4 &322415109 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+    type: 3}
+  m_PrefabInstance: {fileID: 322415108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &322770461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2812,15 +2997,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.25
       objectReference: {fileID: 0}
-    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -3025,6 +3210,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -3941,7 +4131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 438868368}
   m_Layer: 0
-  m_Name: Parte (078) - R** - SierraLX4
+  m_Name: Parte (078) - R** - SierraLX8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3963,6 +4153,10 @@ Transform:
   - {fileID: 530774077}
   - {fileID: 990050774}
   - {fileID: 1869865539}
+  - {fileID: 440242441}
+  - {fileID: 1810761976}
+  - {fileID: 322415109}
+  - {fileID: 1664830300}
   m_Father: {fileID: 1012215299}
   m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4041,6 +4235,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 439282111}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &440242440
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 438868368}
+    m_Modifications:
+    - target: {fileID: 4898581620469578187, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_Name
+      value: TrampaSierraLateral (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
+--- !u!4 &440242441 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+    type: 3}
+  m_PrefabInstance: {fileID: 440242440}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &441196089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4117,6 +4396,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -4402,6 +4686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -4744,7 +5033,7 @@ PrefabInstance:
     - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
@@ -6469,6 +6758,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
 --- !u!4 &716507366 stripped
@@ -8114,15 +8408,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.75
       objectReference: {fileID: 0}
-    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -8283,7 +8577,7 @@ PrefabInstance:
     - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f3c140afcad6147918eedfe9b94630, type: 3}
@@ -9401,7 +9695,7 @@ PrefabInstance:
     - target: {fileID: 7249657502313417254, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.5
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 7249657502313417254, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
@@ -9515,7 +9809,7 @@ PrefabInstance:
     - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
@@ -10162,17 +10456,17 @@ PrefabInstance:
     - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -12335,6 +12629,96 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1286498266}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1303399181
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2004320069}
+    m_Modifications:
+    - target: {fileID: 4898581620469578187, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_Name
+      value: TrampaSierraLateral (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
+--- !u!4 &1303399182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+    type: 3}
+  m_PrefabInstance: {fileID: 1303399181}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1310085077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12405,17 +12789,17 @@ PrefabInstance:
     - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -13118,7 +13502,7 @@ PrefabInstance:
     - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.75
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
@@ -13127,6 +13511,96 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
+--- !u!1001 &1351502586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2004320069}
+    m_Modifications:
+    - target: {fileID: 4898581620469578187, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_Name
+      value: TrampaSierraLateral (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
+--- !u!4 &1351502587 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351502586}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1352581438
 GameObject:
   m_ObjectHideFlags: 0
@@ -13442,7 +13916,7 @@ PrefabInstance:
     - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f3c140afcad6147918eedfe9b94630, type: 3}
@@ -13963,6 +14437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":0.75,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -14548,6 +15027,96 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1540108638}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1545110966
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2004320069}
+    m_Modifications:
+    - target: {fileID: 4898581620469578187, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_Name
+      value: TrampaSierraLateral (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
+--- !u!4 &1545110967 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+    type: 3}
+  m_PrefabInstance: {fileID: 1545110966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1550281058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14620,15 +15189,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.25
       objectReference: {fileID: 0}
-    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -15663,6 +16232,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1658079826}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1664830299
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 438868368}
+    m_Modifications:
+    - target: {fileID: 4898581620469578187, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_Name
+      value: TrampaSierraLateral (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
+--- !u!4 &1664830300 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+    type: 3}
+  m_PrefabInstance: {fileID: 1664830299}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1668733019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16519,6 +17173,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.25,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f3c140afcad6147918eedfe9b94630, type: 3}
 --- !u!4 &1737036654 stripped
@@ -16597,17 +17256,17 @@ PrefabInstance:
     - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -17038,6 +17697,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1805287896}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1810761975
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 438868368}
+    m_Modifications:
+    - target: {fileID: 4898581620469578187, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_Name
+      value: TrampaSierraLateral (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
+--- !u!4 &1810761976 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7279484812487974822, guid: eb82ac29d6755a54fa78731220e60497,
+    type: 3}
+  m_PrefabInstance: {fileID: 1810761975}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1814216190
 GameObject:
   m_ObjectHideFlags: 0
@@ -17297,6 +18041,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":0.75,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
 --- !u!4 &1827610126 stripped
@@ -17386,6 +18135,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244881358354458959, guid: 52cc00a5e75f83044b4ad013583bfb2c,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"objetoActivadorTrampa","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tagCharacter","value":{"$content":"Player","$type":"System.String"},"$version":"A"},{"name":"isTrampaActivada","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"objetoPinchosSuelo","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damage","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"sonidoPinchesSaliendo","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"animationVelocity","value":{"$content":0.75,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52cc00a5e75f83044b4ad013583bfb2c, type: 3}
@@ -17575,15 +18329,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.75
       objectReference: {fileID: 0}
-    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -17663,7 +18417,7 @@ PrefabInstance:
     - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
@@ -18074,17 +18828,17 @@ PrefabInstance:
     - target: {fileID: 4314300187306721853, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2180502235096926841, guid: eb82ac29d6755a54fa78731220e60497,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
@@ -18741,6 +19495,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3577578135580603466, guid: eb82ac29d6755a54fa78731220e60497,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":0.75,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb82ac29d6755a54fa78731220e60497, type: 3}
 --- !u!4 &1929743523 stripped
@@ -18961,7 +19720,7 @@ PrefabInstance:
     - target: {fileID: 7249657502313417254, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: -1.75
       objectReference: {fileID: 0}
     - target: {fileID: 7249657502313417254, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
@@ -19006,7 +19765,7 @@ PrefabInstance:
     - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f3c140afcad6147918eedfe9b94630, type: 3}
@@ -19096,7 +19855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2004320069}
   m_Layer: 0
-  m_Name: Parte (079) - R** - SierraLX4
+  m_Name: Parte (079) - R** - SierraLX8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19118,6 +19877,10 @@ Transform:
   - {fileID: 1060686882}
   - {fileID: 1310085078}
   - {fileID: 1737921800}
+  - {fileID: 1303399182}
+  - {fileID: 1351502587}
+  - {fileID: 1545110967}
+  - {fileID: 151430939}
   m_Father: {fileID: 1012215299}
   m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19647,7 +20410,7 @@ PrefabInstance:
     - target: {fileID: 3474533249285169610, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Sierra1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoSwish","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"setInvertido","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"animationVelocity","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f3c140afcad6147918eedfe9b94630, type: 3}
@@ -20032,7 +20795,7 @@ PrefabInstance:
     - target: {fileID: 7249657502313417254, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 7249657502313417254, guid: 31f3c140afcad6147918eedfe9b94630,
         type: 3}
