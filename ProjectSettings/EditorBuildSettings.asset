@@ -23,18 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel0003.unity
     guid: f22745709ea34184ea7483446d230d72
-  - enabled: 1
-    path: Assets/Scenes/Nivel0006.unity
-    guid: a0c0387487caad84680b44c98b48e33e
-  - enabled: 1
-    path: Assets/Scenes/Nivel0005.unity
-    guid: fee2d84583b859d4fb48507470d6b98d
-  - enabled: 1
-    path: Assets/Scenes/Nivel0000.unity
-    guid: f7ea1c171ae0b9f47b6783e6a431c67a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel0004.unity
     guid: dd40458ce6e73ce4e9b58b5273e4864d
+  - enabled: 0
+    path: Assets/Scenes/Nivel0006.unity
+    guid: a0c0387487caad84680b44c98b48e33e
+  - enabled: 0
+    path: Assets/Scenes/Nivel0005.unity
+    guid: fee2d84583b859d4fb48507470d6b98d
+  - enabled: 0
+    path: Assets/Scenes/Nivel0000.unity
+    guid: f7ea1c171ae0b9f47b6783e6a431c67a
   - enabled: 1
     path: Assets/Scenes/EscenaDerrota.unity
     guid: 84eced2a8aac41b4ebc82d8be5980ba5
